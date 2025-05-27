@@ -1,8 +1,8 @@
-# 🥗 Healthy Food Finder
+#  Healthy Food Finder 🌿🍅
 
 Aplikasi web sederhana untuk mencari informasi makanan sehat dan nutrisinya.
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 1. Clone repo:
 ```bash
 git clone https://github.com/adstika20/healthy-food-finder.git
