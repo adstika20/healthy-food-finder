@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(193, 213, 121);
+  
+  
+}
+.jumbotron {
+  background-image: url("../script/view/sehat.jpg");
+  padding: 250px;
+  width: 100%;
+  background-attachment:scroll;
+    background-position: center;
+    background-size: cover;
+    text-align:start;
+    color: rgb(10, 3, 3);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+
+@media screen and (max-width: 100px) {
+  .jumbotron-fluid {
+     padding: 100px;
+  }
+ }
+ main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: cursive;
+  color: rgb(23, 89, 16);
+  text-align: center;
+  box-shadow: 2 2px 2px 2 rgba(0,0,0,0.2);
+ }
+ .flex-container>div{
+  background-color: rgb(236, 242, 235);
+  color: rgb(49, 102, 44);
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+  text-align:center;
+  font-family:cursive;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.flex-container>div:hover {
+  font-weight: bold;
+  
+}
+food-list{
+  display: block;
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+ }
+ footer{
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+  color: rgb(6,11,5);
+  font-weight: 700;
+  font-family:cursive;
+ }
+.fa-heart{
+  color: rgb(220 38 38);
+}
+footer > .social-media{
+  margin-bottom: 20px;
+}
+footer > .social-media > a{
+  color: rgb(21, 20, 20);
+  margin: 0 5px;
+}
